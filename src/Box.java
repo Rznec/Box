@@ -4,7 +4,7 @@ public class Box<T> {
     public T book;
 
     Box(T name) {
-        this.book = name;
+        book = name;
     }
 
     ArrayList<T> books = new ArrayList<>();
