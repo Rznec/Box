@@ -4,6 +4,7 @@ public class Box<T> {
     public T book;
 
     Box(T name) {
+
         book = name;
     }
 
